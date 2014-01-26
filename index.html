@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ed Kelley</title>
+	<style type="text/css">
+		body {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+			background-color: #f9f9f9;
+		}
+		p {
+			color: #555;
+		}
+		h1 {
+			color: #555;
+		}
+		a {
+			color: #0083CB;
+			text-decoration: none;
+		}
+		.container {
+			max-width: 780px;
+			margin: 0 auto;
+			padding: 20px;
+			height: 100%;
+			text-align: left;
+			margin-top: 60px;
+		}
+	</style>
+	<script type='text/javascript'>
+	    function email(name, domain, withlink) {
+	        var addr = name + '@' + domain;
+	        if(withlink) {
+	            document.write('<a href="mailto:' + addr + '">' + addr + '</a>');
+	        } else {
+	            document.write(addr);
+	        }
+	    }
+	</script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+	<h1>Hi, my name is Ed</h1>
+
+	<p>I am a web engineer at <a href="http://seatgeek.com">SeatGeek</a> and live in New York City. I graduated from Princeton with a degree in CS, but spent most of my time <a href="http://www.goprincetontigers.com/ViewArticle.dbml?SPSID=46855&SPID=4262&DB_LANG=C&DB_OEM_ID=10600&ATCLID=206907568">fencing</a> and working with uncooperative <a href="http://www.slideshare.net/edkelley2/particle-filter-localization-for-unmanned-aerial-vehicles-using-augmented-reality-tags">robots</a>.</p> 
+
+	<p>Check out some of my projects on <a href=""> GitHub</a>, infrequent tweets on <a href="">Twitter</a>, or completely frabicated endorsements on <a href="">LinkedIn</a>.</p>
+
+
+	<p>Feel free to contact me at <script>email('ekelleyv', 'gmail.com', true);</script>.</p>
+	</div>
+</body>
+</html>
